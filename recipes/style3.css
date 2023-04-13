@@ -1,0 +1,59 @@
+/* Set a beautiful font for the entire document */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Add some padding and margin to the headings */
+  h1, h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style the image to be centered and have a soft border */
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the unordered and ordered list to have elegant bullets */
+  ul, ol {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  li::before {
+    content: "●";
+    font-size: 15px;
+    margin-right: 5px;
+    color: #999;
+  }
+  
+  /* Style the paragraph text to have a slightly smaller font size */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Style the entire document to have a light background and dark text */
+  body {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Style the link color to be a subtle blue */
+  a {
+    color: #3b7ca1;
+    text-decoration: none;
+  }
+  
+  /* On hover, change the link color to be slightly darker */
+  a:hover {
+    color: #2e5f76;
+  }
