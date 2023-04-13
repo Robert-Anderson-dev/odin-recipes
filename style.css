@@ -1,0 +1,26 @@
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    background-color: blueviolet;
+    color: darkslategrey;
+}
+
+
+.item{
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+
+.heading{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: larger;
+    background-color: darkred;
+    color: hotpink;
+}
+
+img {
+    height: auto;
+    width: 500px;
+  }
